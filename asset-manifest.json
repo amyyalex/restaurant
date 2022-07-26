@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/amyyalex/restaurant.git/static/css/main.8bc55a59.css",
-    "main.js": "/amyyalex/restaurant.git/static/js/main.0c83e24b.js",
-    "index.html": "/amyyalex/restaurant.git/index.html",
-    "main.8bc55a59.css.map": "/amyyalex/restaurant.git/static/css/main.8bc55a59.css.map",
-    "main.0c83e24b.js.map": "/amyyalex/restaurant.git/static/js/main.0c83e24b.js.map"
+    "main.css": "/restaurant/static/css/main.8bc55a59.css",
+    "main.js": "/restaurant/static/js/main.22b8797d.js",
+    "index.html": "/restaurant/index.html",
+    "main.8bc55a59.css.map": "/restaurant/static/css/main.8bc55a59.css.map",
+    "main.22b8797d.js.map": "/restaurant/static/js/main.22b8797d.js.map"
   },
   "entrypoints": [
     "static/css/main.8bc55a59.css",
-    "static/js/main.0c83e24b.js"
+    "static/js/main.22b8797d.js"
   ]
 }
