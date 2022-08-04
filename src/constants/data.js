@@ -1,3 +1,5 @@
+import images from './images';
+
 const drinks = [
   {
     title: 'Palm-wine',

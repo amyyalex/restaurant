@@ -2,7 +2,7 @@ import { waitForElementToBeRemoved } from '@testing-library/react';
 import React from 'react';
 
 import { SubHeading, MenuItem } from '../../components';
-
+import { images } from '../../constants';
 import { data } from '../../constants';
 import './SpecialMenu.css';
 
@@ -23,7 +23,7 @@ const SpecialMenu = () => (
       </div>
       
       <div className="app__specialMenu-menu_img">
-         <img src={"/images/menu1.jpg"} alt="menu image" /> 
+         <img src={images.menu1} alt="menu image" /> 
       </div>
 
       <div className="app__specialMenu-menu_food flex__center">

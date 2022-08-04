@@ -1,12 +1,12 @@
 import React from 'react';
 
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
-
+import { images } from '../../constants';
 import { SubHeading } from '../../components';
 import { data } from '../../constants';
 import './Gallery.css';
 
-const galleryImages = ["/images/gallery01.jpg", "/images/gallery02.jpg", "/images/gallery03.jpg", "/images/gallery04.jpeg", "/images/gallery05.jpg", "/images/gallery06.jpg" ]
+const galleryImages = [images.gallery01, images.gallery02, images.gallery03, images.gallery04, images.gallery05, images.gallery06 ]
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);

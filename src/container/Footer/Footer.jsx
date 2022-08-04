@@ -2,7 +2,7 @@ import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
 
-
+import { images } from '../../constants';
 import { FooterOverlay, Newsletter } from '../../components';
 import './Footer.css';
 
@@ -21,7 +21,7 @@ const Footer = () => (
       <div className="app__footer-links_logo">
         <h1>BIARIE</h1>
         <p className="p__opensans">"Nothing brings people together like good food because good food is good mood!"</p>
-        <img src={"/images/gold.png"} alt="footer-gold" className="gold__img" style={{marginTop: 15}}/>
+        <img src={images.gold} alt="footer-gold" className="gold__img" style={{marginTop: 15}}/>
         <div className="app__footer-links_icons">
           <FiFacebook/>
           <FiInstagram/>
